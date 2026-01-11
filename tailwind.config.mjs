@@ -1,23 +1,8 @@
-/** @type {import{'tailwindcss'}.Config} */
+/** @type {import('tailwindcss').Config} */
 
-export default {
-    content: [
-        "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    ],
-    theme: {
-        extend: {
-            colors: {
-                lightHover: '#fcf4ff',
-                darkHover: '#2a004a',
-                darkTheme: '#11001F',
-            },
-            fontFamilty: {
-                Outfit: ["Outfit", "sans-serif"],
-                Ovo: ["Ovo", "serif"]
-            }
-        },
-    },
-    plugins: [],
-};
+// Tailwind CSS v4 uses CSS-based configuration via @theme in globals.css
+// This file is kept for compatibility but configuration is now in app/globals.css
+
+const config = {};
+
+export default config;
