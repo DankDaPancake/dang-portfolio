@@ -14,8 +14,18 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%]mt-12 py-6 px-25">
+      <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <p>© 2026 Ly Huynh Minh Dang. All rights reserved.</p>
+        <p className="text-sm text-gray-500 mt-2 sm:mt-0">
+          Design inspired by{" "}
+          <a
+            href="https://www.youtube.com/watch?v=Y2kGqbzvAn4"
+            target="_blank"
+            className="underline hover:text-gray-700"
+          >
+            GreatStack
+          </a>
+        </p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
             <a target="_blank" href="https://github.com/DankDaPancake">
