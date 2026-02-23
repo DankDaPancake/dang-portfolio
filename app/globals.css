@@ -3,11 +3,11 @@
 @theme {
   --color-lightHover: #fcf4ff;
   --color-darkHover: #2a004a;
-  --color-darkTheme: #11001F;
-  
+  --color-darkTheme: #11001f;
+
   --font-family-outfit: "Outfit", sans-serif;
   --font-family-ovo: "Ovo", serif;
-  
+
   --shadow-black: 4px 4px 0 #000;
   --shadow-white: 4px 4px 0 #fff;
 }
@@ -22,6 +22,6 @@ html {
   scroll-behavior: smooth;
 }
 
-*{
+* {
   font-family: Outfit;
 }
